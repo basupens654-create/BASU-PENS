@@ -237,7 +237,9 @@ header .navbar {
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
-    padding: 60px 0 100px;
+    width:100%;
+    display:block;
+
 }
 .section-title::after {
     content: "";
