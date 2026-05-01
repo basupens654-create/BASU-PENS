@@ -662,7 +662,7 @@ MOBILE (max-width: 768px)
 
     /* Moving title to the top using order: -1 */
     .about-section .section-title {
-        order: -1; 
+        
         margin: 0 0 15px 0;
     }
 
@@ -708,7 +708,13 @@ MOBILE (max-width: 768px)
     }
 
     .eco-points .eco-box{
-        background-color: rgba(212, 212, 212, 0.664);
+        transition:transform 0.3s ease
+        background-color:#f4fff6;
+
+    .eco-points .eco-box:hover
+        transform:translateY(-5px)
+        background-color:#ffff;
+
     }
 
     /* ================= FOUNDER ================= */
@@ -731,7 +737,7 @@ MOBILE (max-width: 768px)
 
     .contact-section {
         padding: 50px 15px;
-        background: rgb(78, 76, 76);
+        background: linear-gradient(135deg, #dfe9f3, #ffffff);
     }
 
     /* Contact info box */
@@ -754,7 +760,7 @@ MOBILE (max-width: 768px)
     }
 
     .z {
-        color: rgb(0, 255, 76);
+        color: red;
         margin-top: 18px;
         text-align: center;
         font-size: 16px;
