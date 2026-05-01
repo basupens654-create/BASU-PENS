@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASU PENS</title>
+
+    <link rel="stylesheet" href="basu.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar FIX -->
+    <header>
+        <nav class="navbar">
+    <div class="section-content">
+
+        <!-- LOGO -->
+        <a href="https://www.facebook.com/BasuPens/" class="nav-logo">
+            <img src="log.png" alt="logo" class="logo">
+        </a>
+
+        <!-- HIDDEN CHECKBOX -->
+        <input type="checkbox" id="menu-toggle">
+
+        <!-- HAMBURGER -->
+        <label for="menu-toggle" class="menu-icon">
+            ☰
+        </label>
+
+        <!-- DESKTOP NAV -->
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="#eco mission" class="nav-link">Eco Mission</a></li>
+            <li class="nav-item"><a href="#founder" class="nav-link">Founder</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- MOBILE SIDEBAR -->
+        <ul class="sidebar">
+
+            <!-- CLOSE BUTTON -->
+            <label for="menu-toggle" class="close-btn">✕</label>
+
+            <li class="nav-item">
+                <a href="#home" class="nav-link"
+                onclick="document.getElementById('menu-toggle').checked=false">
+                Home
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#about" class="nav-link"
+                onclick="document.getElementById('menu-toggle').checked=false">
+                About Us
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#products" class="nav-link"
+                onclick="document.getElementById('menu-toggle').checked=false">
+                Products
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#eco mission" class="nav-link"
+                onclick="document.getElementById('menu-toggle').checked=false">
+                Eco Mission
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#founder" class="nav-link"
+                onclick="document.getElementById('menu-toggle').checked=false">
+                Founder
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#contact" class="nav-link"
+                onclick="document.getElementById('menu-toggle').checked=false">
+                Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+    </header>
+    <main>
+
+        <!-- HERO SECTION (FULL ORIGINAL TEXT) -->
+        <section class="hero-section" id="home">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">BASU PENS</h2>
+                    <h3 class="sub-title">
+                        🇳🇵 Proudly Manufactured in Nepal
+                    </h3>
+                    <p class="description">
+                        Discover smooth and reliable writing with BASU PENS. From ball pens and gel pens to paper eco pens and pencils, we bring you quality stationery designed for everyday use. Crafted with care in Nepal, our products combine comfort, durability, and affordability to make writing simple and enjoyable.
+                    </p>
+                    <div class="buttons">
+                        <a href="#products" class="button explore-products">Explore Our Products</a>
+                        <a href="#contact" class="button contact">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION (FULL ORIGINAL TEXT) -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="p.png" alt="about-image" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">
+                        At Basu Pens, we believe that every great idea begins with a simple stroke of a pen. Writing is more than just a daily activity—it is a powerful way to express thoughts, creativity, and knowledge. With this belief, Basu Pens is dedicated to providing high-quality writing instruments that make every word smooth, clear, and meaningful.
+Our journey started with a vision to create pens that combine comfort, durability, and modern design. We understand that a good pen should not only write well but also feel right in your hand. That is why each Basu pen is crafted with attention to detail, ensuring a consistent ink flow, long-lasting performance, and a comfortable grip for everyday use.
+At Basu Pens, we focus on meeting the needs of students, professionals, and writers who rely on pens in their daily lives. Whether it’s taking notes in class, signing important documents, or expressing creative ideas, our pens are designed to deliver reliability and precision every time.
+Quality and affordability are at the heart of everything we do. We aim to provide products that are accessible to everyone without compromising on performance or style. Our commitment to customer satisfaction drives us to continuously improve and innovate our designs.
+We also believe that a pen is not just a tool—it is a companion in your journey of learning, working, and creating. Every line you write tells a story, and Basu Pens is proud to be a part of those stories.
+                    </p>
+                </div>
+            </div>
+        </section>
+<section class="product-section" id="products">
+    <h2 class="section-title">Our Products</h2>
+    <div class="section-content">
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="blue gel.jpg" alt="Blue Gel Pen" class="product-image">
+            <h3 class="pen">Blue Gel Pen</h3>
+            <p class="description">Smooth writing gel pen for daily use.</p>
+            <span>Rs 10</span>
+        </div>
+
+        <div class="product-card">
+            <img src="black gel.jpg" alt="Black Gel Pen" class="product-image">
+            <h3 class="pen">Black Gel Pen</h3>
+            <p class="description">Dark ink gel pen with clean writing.</p>
+            <span>Rs 10</span>
+        </div>
+
+        <div class="product-card">
+            <img src="red gel.jpg" alt="Pencil" class="product-image">
+            <h3 class="pen">Red Gel Pen</h3>
+            <p class="description">Smooth graphite pencil for writing & drawing.</p>
+            <span>Rs 10</span>
+        </div>
+
+        <div class="product-card">
+            <img src="black ball.jpg" alt="Black Ball Pen" class="product-image">
+            <h3 class="pen">Black Ball Pen</h3>
+            <p class="description">Long-lasting ball pen for everyday writing.</p>
+            <span>Rs 10</span>
+        </div>
+
+        <div class="product-card">
+            <img src="j.jpg" alt="Purple Ball Pen" class="product-image">
+            <h3 class="pen">Purple Ball Pen</h3>
+            <p class="description">Stylish purple ink ball pen.</p>
+            <span>Rs 20</span>
+        </div>
+
+        <div class="product-card">
+            <img src="paper pen.jpg" alt="Paper Pen" class="product-image">
+            <h3 class="pen">Paper Pen</h3>
+            <p class="description">Eco-friendly pen made from paper.</p>
+            <span>Rs 10</span>
+        </div>
+
+        <div class="product-card">
+            <img src="red.jpg" alt="Red Pen" class="product-image">
+            <h3 class="pen">Red Pen</h3>
+            <p class="description">Perfect for checking and marking.</p>
+            <span>Rs 5</span>
+        </div>
+
+        <div class="product-card">
+            <img src="penc.jpg" alt="Pencil" class="product-image">
+            <h3 class="pen">Paper Pencil</h3>
+            <p class="description">Smooth graphite pencil for writing & drawing.</p>
+            <span>Rs 10</span>
+        </div>
+        <div class="product-card">
+            <img src="bamboo.jpg" alt="Bamboo Pen" class="product-image">
+            <h3 class="pen">Bamboo Pen</h3>
+            <p class="description">Smooth graphite pencil for writing & drawing.</p>
+            <span>Rs 100</span>
+        </div>
+        
+
+    </div>
+    </div>
+</section>
+    <section class="eco-section" id="eco mission">
+        <h2 class="section-title">Our Eco mission</h2>
+        <div class="section-content">
+        <div class="eco-container">
+            <h3 class="heading">The future of our planet is being written today and every choice we make leaves a mark.</h3>
+            <h5 class="responsibility">At BASU PENS, sustainability is at the core of everything we do. We believe that innovation should not come at the cost of nature, which is why we focus on using alternative and responsible materials in our products. Wherever possible, we encourage the reuse of waste materials, including those generated from agricultural sources, turning what is often discarded into something useful and valuable. This approach helps reduce unnecessary waste while giving new life to resources that would otherwise harm the environment.
+Our processes are designed with care to minimize pollution and reduce environmental impact at every stage, from material selection to production. Instead of contributing to the growing problem, we aim to be part of a smarter and cleaner solution. By combining thoughtful design with environmental responsibility, we strive to create products that support both quality and sustainability without compromising the health of our planet.</h5>
+            <br>
+            <h4 class="title">How We Make Difference</h4>
+            <div class="eco-points">
+            <div class="eco-box">
+                <div class="b">
+                <h3>The Environmental Problem</h3>
+                <p class="description">Our planet is facing a growing crisis due to plastic waste and pollution. Millions of disposable pens are thrown away every day, contributing to environmental damage that affects land, water, and air. This pollution disturbs ecosystems, harms wildlife, and threatens biodiversity, creating an urgent need for responsible choices.</p>
+            </div></div>
+            <div class="eco-box">
+                <div class="c">
+                <h3>Our Mission To Solve The Problem</h3>
+                <p class="description">At BASU PENS, our mission is to reduce environmental impact by promoting eco-conscious writing solutions. We aim to minimize waste, encourage sustainability, and protect the natural balance of our planet by designing products that are both practical and responsible.</p>
+            </div></div>
+            <div class="eco-box">
+                <h3>Why To Choose Us?</h3>
+                <p class="description">Because choosing BASU PENS means choosing responsibility. Our products are designed with care for the environment, helping you reduce waste while supporting a cleaner and healthier ecosystem. Every purchase you make becomes a step toward protecting biodiversity and building a sustainable future.</p>
+            </div>
+            <div class="eco-box">
+                <h3>What We Do?</h3>
+                <p class="description">We create high-quality pens using thoughtful design and responsible materials that focus on durability and reduced environmental impact. Our goal is to provide writing tools that not only perform well but also contribute to a greener planet.</p>
+            </div>
+            <h4 class="end">Together, we can write a better future — one pen at a time.</h4>
+        </div>
+    </div>
+    </div>
+    </section>
+<section class="founder-section" id="founder">
+    <h2 class="section-title">Our Founder</h2>
+    <div class="section-content">
+        <!-- LEFT SIDE -->
+        <div class="founder-left">
+            <div class="founder-image-wrapper">
+                <img src="picc.jpg" alt="Founder" class="founder-image">
+                
+            </div>
+            <h5 class="t">Idea Studio 4 Iditiours</h5>
+            <h3 class="name">Mr. Dwarika Prashad Joshi</h3>
+            <h4 class="position">Founder & CEO</h4>
+        </div>
+        <!-- RIGHT SIDE -->
+        <div class="founder-details">
+    <p class="i">Basu Pens was founded by Dwarika Prashad Joshi, with a vision to build a strong and self-reliant stationery manufacturing brand in Nepal. His goal was to create a company that represents quality, innovation, and local production, while reducing dependency on imported writing products. He aimed to contribute to the growth of Nepal’s industrial sector through meaningful and practical production.</p>
+
+    <p class="j">Under his leadership, the company was developed with the idea of producing reliable and affordable pens that meet everyday needs. The focus has always been on building a product that balances performance, durability, and accessibility for students, professionals, and general users. Continuous improvement and attention to detail remain key priorities in the production process.</p>
+
+    <p class="k">Dwarika Prashad Joshi’s approach to business is centered on long-term thinking, disciplined execution, and strong ethical values. He believes that a brand grows not only through products, but also through trust, consistency, and responsibility toward customers. His leadership style emphasizes quality over quantity and steady progress over shortcuts.</p>
+
+    <p class="l">From a simple concept to a growing manufacturing initiative, his journey reflects determination and resilience. Through continuous effort, the idea was transformed into a functioning brand that is gradually gaining recognition in the Nepali market. Each stage of development has been guided by learning, adaptation, and commitment to improvement.</p>
+
+    <p class="m">Looking forward, his vision is to expand the brand’s reach and strengthen local manufacturing in Nepal. The long-term goal is to build a sustainable and competitive stationery industry that can stand proudly in both national and future international markets. He also aims to create more opportunities for local employment and innovation.</p>
+</div>
+</div>
+</section>
+<section class="contact-section" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-info">
+        <p>📍 Address: Tikapur, Kailali, Sudurpaschim Province</p>
+        <p>📞 Phone: +977 9869113054</p>
+        <p>✉️ Email: dpjoshi026@gmail.com</p>
+
+        <p>📞 Whatsapp no: 9869113054</p>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/basupen/" target="_blank">
+                <img src="facebook.png" alt="Facebook">
+            </a>
+
+            <a href="https://www.instagram.com/basupens/" target="_blank">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+            
+            
+        </div><p class="description">let's Connect and Build Something Great For Nepal Together!</p>
+        
+    </div><p class="z">Basu Nepal - Nepal Will Rise Again!</p>
+</section>
+</main>
+
+<script>
+const menuIcon = document.getElementById("menu-icon");
+const sidebar = document.getElementById("sidebar");
+
+menuIcon.addEventListener("click", () => {
+    sidebar.classList.toggle("active");
+});
+</script>
+</body>
+</html>
