@@ -698,24 +698,15 @@ MOBILE (max-width: 768px)
     }
 
     /* ================= ECO ================= */
+.eco-points .eco-box {
+    transition: transform 0.3s ease;
+    background-color: #f4fff6;
+}
 
-    .eco-section {
-        padding: 40px 15px;
-    }
-
-    .eco-points {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-
-    .eco-points .eco-box{
-        transition:transform 0.3s ease
-        background-color:#f4fff6;
-
-    .eco-points .eco-box:hover
-        transform:translateY(-5px)
-        background-color:#ffff;
-
+.eco-points .eco-box:hover {
+    transform: translateY(-5px);
+    background-color: #ffffff;
+}
     }
 
     /* ================= FOUNDER ================= */
