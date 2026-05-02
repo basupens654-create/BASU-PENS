@@ -707,12 +707,13 @@ MOBILE (max-width: 768px)
     } 
     
     .eco-points .eco-box{
+        
         transition:transform 0.3s ease;
-        background-color:#f2f2f2;
+        background-color: rgba(185, 151, 151, 0.1);
                         } 
     .eco-points .eco-box:hover{
         transform:translateY(-5px);
-        background-color:#ffffff;
+        background-color:rgba(255,255,255,0.1);
     }
     
 
