@@ -706,16 +706,14 @@ MOBILE (max-width: 768px)
         gap: 15px; 
     } 
     
+  
     .eco-points .eco-box{
-        
-        transition:transform 0.3s ease;
-        background-color: rgba(185, 151, 151, 0.1);
-                        } 
-    .eco-points .eco-box:hover{
-        transform:translateY(-5px);
-        background-color:rgba(255,255,255,0.1);
+        background-color: rgba(179, 148, 148, 0.137);
     }
-    
+
+    .eco-points .eco-box:hover{
+        background-color: rgba(255, 255, 255, 0.103);
+    }
 
     /* ================= FOUNDER ================= */
 
