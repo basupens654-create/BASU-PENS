@@ -708,13 +708,13 @@ MOBILE (max-width: 768px)
     
     .eco-points .eco-box{
         transition:transform 0.3s ease;
-        background-color:#f4fff6;
+        background-color:#F2F2F2;
                         } 
     .eco-points .eco-box:hover{
         transform:translateY(-5px);
-        background-color:#ffff;
+        background-color:#FFFF;
     }
-    }
+    
 
     /* ================= FOUNDER ================= */
 
