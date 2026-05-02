@@ -12,6 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>Welcome to BASU PENS - Jay Nepal 🇳🇵</h2>
+    <button onclick="closePopup()">🇳🇵Ok</button>
+  </div>
+</div>
     <!-- Navbar FIX -->
     <header>
         <nav class="navbar">
@@ -290,14 +296,14 @@ Our processes are designed with care to minimize pollution and reduce environmen
     </div><p class="z">Basu Nepal - Nepal Will Rise Again!</p>
 </section>
 </main>
+    <script>
+    window.onload = function(){
+  document.getElementById("popup").style.display = "flex";
+}
 
-<script>
-const menuIcon = document.getElementById("menu-icon");
-const sidebar = document.getElementById("sidebar");
-
-menuIcon.addEventListener("click", () => {
-    sidebar.classList.toggle("active");
-});
+function closePopup(){
+  document.getElementById("popup").style.display = "none";
+}</script>
 </script>
 </body>
 </html>
